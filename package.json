@@ -1,5 +1,5 @@
 {
-  "name": "samsung-tv",
+  "name": "node-samsung-tv",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,10 @@
   },
   "bin": {
     "tv": "./cli.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/scripter-co/node-samsung-control.git"
   },
   "author": "Nathan Mahdavi",
   "license": "ISC",

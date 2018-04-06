@@ -9,7 +9,7 @@ If you want to use a different IP, you'll just need to set the env variable `NOD
 ## Installation
 
 ```
-npm install git+https://git@github.com/scripter-co/node-samsung-control.git
+npm install -g node-samsung-tv
 ````
 
 ## Use
