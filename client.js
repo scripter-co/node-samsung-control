@@ -4,7 +4,7 @@ const readline = require('readline');
 
 const mappings = require(resolve(__dirname, './mappings'));
 
-const IP = '192.168.1.100';
+const IP = process.env.NODE_SAMSUNG_TV_IP || '192.168.1.100';
 const PORT = 8001;
 
 const stdin = process.openStdin();
