@@ -7,6 +7,9 @@
     "start": "node index.js",
     "debug": "nodemon index.js"
   },
+  "bin": {
+    "tv": "./cli.js"
+  },
   "author": "Nathan Mahdavi",
   "license": "ISC",
   "dependencies": {
