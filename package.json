@@ -1,0 +1,17 @@
+{
+  "name": "samsung-tv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon index.js"
+  },
+  "author": "Nathan Mahdavi",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.17.3",
+    "ws": "^5.1.1"
+  }
+}
